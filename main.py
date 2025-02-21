@@ -20,9 +20,9 @@ def process_data(input_data: InputData) -> Dict:
         
         response = {
             "is_success": True,
-            "user_id": 123,
-            "email": "22bcs15264@cuchd.in",
-            "roll_number": "22bcs15264",
+            "user_id": user_id,
+            "email": input_data.email,
+            "roll_number": input_data.roll_number,
             "numbers": numbers,
             "alphabets": alphabets
         }
